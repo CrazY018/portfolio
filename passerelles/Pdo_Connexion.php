@@ -4,9 +4,9 @@
  */
 class Pdo_Connexion_bd {
 
-    private static $strServeur = 'mysql:host=localhost';
-    private static $strBdd = 'dbname=portefolio';
-    private static $strUser = 'root';
+    private static $strServeur = 'mysql:host=';
+    private static $strBdd = 'dbname=';
+    private static $strUser = '';
     private static $strMdp = '';
     private static $objPdo;
     private static $objPdoConnexion = null;
